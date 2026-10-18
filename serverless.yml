@@ -17,8 +17,8 @@ functions:
           method: post
           cors: true
           integration: lambda
-          
-   crear:
+
+  crear:
     handler: CrearAlumno.lambda_handler
     events:
       - http:
@@ -26,6 +26,11 @@ functions:
           method: post
           cors: true
           integration: lambda
+
+  
+
+          
+  
 
 
    
